@@ -1,6 +1,6 @@
-update=05-01-2014 00:08:46
+update=05-01-2014 17:11:59
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -38,13 +38,20 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=AMC6821/amc6821
+LibName18=SparkFun
+LibName19=TPS62112/TPS62112
 LibDir=Libs
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=Libs
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -81,8 +88,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=AMC6821/amc6821
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName32=TPS62112/TPS62112
+LibName33=mos_p_(1-2-3)

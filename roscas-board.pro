@@ -1,4 +1,4 @@
-update=05-01-2014 00:10:09
+update=05-01-2014 17:26:11
 last_client=pcbnew
 [pcbnew]
 version=1
@@ -38,3 +38,5 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=AMC6821/amc6821
+LibName18=TPS62112/TPS62112
+LibName19=SparkFun
