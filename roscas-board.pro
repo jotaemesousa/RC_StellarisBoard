@@ -1,4 +1,4 @@
-update=04-01-2014 23:30:39
+update=05-01-2014 00:10:09
 last_client=pcbnew
 [pcbnew]
 version=1
@@ -20,7 +20,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=Libs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -37,3 +37,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=AMC6821/amc6821

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 04-01-2014 23:43:36
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05-01-2014 00:09:20
 
 BeginCmp
 TimeStamp = /52C89A3F;
@@ -64,6 +64,13 @@ IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
+TimeStamp = /52C8A32F;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = sot428;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C89A9F;
 Reference = R1;
 ValeurCmp = R;
@@ -117,6 +124,13 @@ TimeStamp = /52C89AD0;
 Reference = R8;
 ValeurCmp = R;
 IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C8A2FB;
+Reference = U1;
+ValeurCmp = AMC6821_DBQ_16_DBQ16;
+IdModule  = DBQ16;
 EndCmp
 
 EndListe
