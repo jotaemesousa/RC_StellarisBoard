@@ -1,6 +1,6 @@
-update=Seg 06 Jan 2014 22:32:30 WET
+update=06-01-2014 23:46:59
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -46,26 +46,33 @@ LibName31=AMC6821/amc6821
 LibName32=TPS62112/TPS62112
 LibName33=mos_p_(1-2-3)
 LibName34=lm3668/lm3668
+LibName35=tps61170/tps61170
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=RC_StellarisBoard.net
 UseCmpFile=1
-PadDrill="    1,016000"
-PadDrillOvalY="    1,016000"
-PadSizeH="    1,879600"
-PadSizeV="    1,879600"
-PcbTextSizeV="    1,500000"
-PcbTextSizeH="    1,500000"
-PcbTextThickness="    0,300000"
-ModuleTextSizeV="    1,500000"
-ModuleTextSizeH="    1,500000"
-ModuleTextSizeThickness="    0,150000"
-SolderMaskClearance="    0,200000"
-SolderMaskMinWidth="    0,000000"
-DrawSegmentWidth="    0,200000"
-BoardOutlineThickness="    0,150000"
-ModuleOutlineThickness="    0,150000"
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=1.501140000000
+PadSizeV=2.499360000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.500000000000
+ModuleTextSizeH=1.500000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.200000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
+LibDir=Libs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -87,9 +94,4 @@ LibName18=SparkFun
 LibName19=TPS62112/TPS62112
 LibName20=lm3668/lm3668
 LibName21=inductor
-LibDir=Libs
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName22=tps61170/tps61170

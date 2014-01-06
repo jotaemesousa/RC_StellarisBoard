@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Seg 06 Jan 2014 23:00:34 WET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06-01-2014 23:46:43
 
 BeginCmp
 TimeStamp = /52C983ED;
@@ -50,6 +50,41 @@ IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CB3E3D;
+Reference = C8;
+ValeurCmp = 0.68nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB45F5;
+Reference = C9;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB433D;
+Reference = C10;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB4919;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB4345;
+Reference = D2;
+ValeurCmp = DIODESCH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C89A3F;
 Reference = K1;
 ValeurCmp = CONN_3;
@@ -96,6 +131,13 @@ TimeStamp = /52CB293A;
 Reference = L2;
 ValeurCmp = 2.2uH;
 IdModule  = inductor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB4337;
+Reference = L3;
+ValeurCmp = 10uH;
+IdModule  = bournes_7.8;
 EndCmp
 
 BeginCmp
@@ -162,9 +204,23 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /52CB3851;
+TimeStamp = /52CB475B;
+Reference = P10;
+ValeurCmp = XT-60 out;
+IdModule  = SparkFun-1X02_LOCK_LONGPADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB4D3F;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = SparkFun-1X01;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB392C;
 Reference = Q1;
-ValeurCmp = MOSFET_N;
+ValeurCmp = MOS_N;
 IdModule  = sot428;
 EndCmp
 
@@ -180,6 +236,13 @@ TimeStamp = /52C99612;
 Reference = Q3;
 ValeurCmp = MOSFET_N;
 IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB4853;
+Reference = Q4;
+ValeurCmp = MOS_P_(1-2-3);
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -316,6 +379,27 @@ IdModule  = SM2512;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CB3F86;
+Reference = R20;
+ValeurCmp = 120K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB3F80;
+Reference = R21;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB3E37;
+Reference = R22;
+ValeurCmp = 5k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C8A2FB;
 Reference = U1;
 ValeurCmp = AMC6821_DBQ_16_DBQ16;
@@ -334,6 +418,13 @@ TimeStamp = /52CB2923;
 Reference = U3;
 ValeurCmp = LM3668_DQB_12_SDF12A;
 IdModule  = SDF12A;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB3E20;
+Reference = U4;
+ValeurCmp = TPS61170_DRV_6_DRV6_1P6X1;
+IdModule  = DRV6_1P6X1;
 EndCmp
 
 EndListe
