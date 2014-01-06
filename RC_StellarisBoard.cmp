@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05-01-2014 17:25:56
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Seg 06 Jan 2014 23:00:34 WET
 
 BeginCmp
 TimeStamp = /52C983ED;
@@ -24,7 +24,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C98B38;
 Reference = C4;
-ValeurCmp = 1uF;
+ValeurCmp = 10uF;
 IdModule  = SM0805;
 EndCmp
 
@@ -43,10 +43,10 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C97E7A;
-Reference = D1;
-ValeurCmp = ZENER;
-IdModule  = SM0603;
+TimeStamp = /52CB2C45;
+Reference = C7;
+ValeurCmp = 22uF;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
@@ -88,7 +88,14 @@ BeginCmp
 TimeStamp = /52C984FA;
 Reference = L1;
 ValeurCmp = 6.8uH;
-IdModule  = SM2010;
+IdModule  = bournes_7.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CB293A;
+Reference = L2;
+ValeurCmp = 2.2uH;
+IdModule  = inductor;
 EndCmp
 
 BeginCmp
@@ -155,9 +162,9 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C9AD33;
+TimeStamp = /52CB3851;
 Reference = Q1;
-ValeurCmp = MOS_P_123;
+ValeurCmp = MOSFET_N;
 IdModule  = sot428;
 EndCmp
 
@@ -302,6 +309,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CB2885;
+Reference = R19;
+ValeurCmp = shunt;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C8A2FB;
 Reference = U1;
 ValeurCmp = AMC6821_DBQ_16_DBQ16;
@@ -316,10 +330,10 @@ IdModule  = QFN65P400X400X100-17N;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C98A53;
+TimeStamp = /52CB2923;
 Reference = U3;
-ValeurCmp = NCP1117ST12T3G;
-IdModule  = SOT223;
+ValeurCmp = LM3668_DQB_12_SDF12A;
+IdModule  = SDF12A;
 EndCmp
 
 EndListe

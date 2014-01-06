@@ -1,6 +1,18 @@
-EESchema-DOCLIB  Version 2.0  Date: 05-01-2014 17:12:26
+EESchema-DOCLIB  Version 2.0  Date: Seg 06 Jan 2014 23:01:34 WET
+#
+$CMP MOS_N
+F transistors/mos/*.*
+$ENDCMP
 #
 $CMP MOS_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOS_P_123
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
 F transistors/mos/*.*
 $ENDCMP
 #
