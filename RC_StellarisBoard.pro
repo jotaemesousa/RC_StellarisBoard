@@ -1,8 +1,13 @@
-update=06-01-2014 23:46:59
+update=Ter 07 Jan 2014 23:28:30 WET
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=Libs
@@ -47,30 +52,26 @@ LibName32=TPS62112/TPS62112
 LibName33=mos_p_(1-2-3)
 LibName34=lm3668/lm3668
 LibName35=tps61170/tps61170
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName36=ina226
 [pcbnew]
 version=1
 LastNetListRead=RC_StellarisBoard.net
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
-PadSizeH=1.501140000000
-PadSizeV=2.499360000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.500000000000
-ModuleTextSizeH=1.500000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.200000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.150000000000
-ModuleOutlineThickness=0.150000000000
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    1,501140"
+PadSizeV="    2,499360"
+PcbTextSizeV="    1,500000"
+PcbTextSizeH="    1,500000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,500000"
+ModuleTextSizeH="    1,500000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,200000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
 LibDir=Libs
 LibName1=sockets
@@ -95,3 +96,6 @@ LibName19=TPS62112/TPS62112
 LibName20=lm3668/lm3668
 LibName21=inductor
 LibName22=tps61170/tps61170
+LibName23=Dioden_SMD_RevA_06Sep2012
+LibName24=smd_diodes
+LibName25=sod123_mod

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 07-01-2014 00:02:55
+Cmp-Mod V01 Created by PcbNew date = Ter 07 Jan 2014 23:48:08 WET
 
 BeginCmp
 TimeStamp = /52C983ED;
@@ -71,17 +71,31 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CC931F;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC9344;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52CB4919;
 Reference = D1;
 ValeurCmp = ZENER;
-IdModule  = ;
+IdModule  = SOD123_mod;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CB4345;
 Reference = D2;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = SMB;
 EndCmp
 
 BeginCmp
@@ -137,7 +151,7 @@ BeginCmp
 TimeStamp = /52CB4337;
 Reference = L3;
 ValeurCmp = 10uH;
-IdModule  = bournes_7.8;
+IdModule  = 4x4;
 EndCmp
 
 BeginCmp
@@ -213,6 +227,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52CB4D3F;
 Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = SparkFun-1X01;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC8F71;
+Reference = P12;
 ValeurCmp = CONN_1;
 IdModule  = SparkFun-1X01;
 EndCmp
@@ -400,6 +421,27 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CC8F78;
+Reference = R23;
+ValeurCmp = 3k3;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC935A;
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC934A;
+Reference = R25;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C8A2FB;
 Reference = U1;
 ValeurCmp = AMC6821_DBQ_16_DBQ16;
@@ -425,6 +467,13 @@ TimeStamp = /52CB3E20;
 Reference = U4;
 ValeurCmp = TPS61170_DRV_6_DRV6_1P6X1;
 IdModule  = DRV6_1P6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC8F62;
+Reference = U5;
+ValeurCmp = INA226;
+IdModule  = MSOP10-0.5;
 EndCmp
 
 EndListe
