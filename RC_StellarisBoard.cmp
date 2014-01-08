@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Ter 07 Jan 2014 23:48:08 WET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Qua 08 Jan 2014 00:49:11 WET
 
 BeginCmp
 TimeStamp = /52C983ED;
@@ -102,35 +102,42 @@ BeginCmp
 TimeStamp = /52C89A3F;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SparkFun-1X03_LOCK;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89A4C;
 Reference = K2;
 ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SparkFun-1X03_LOCK;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89A52;
 Reference = K3;
 ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SparkFun-1X03_LOCK;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89A58;
 Reference = K4;
 ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SparkFun-1X03_LOCK;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C99726;
 Reference = K5;
 ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SparkFun-1X03_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC9E23;
+Reference = K6;
+ValeurCmp = CONN_3;
+IdModule  = SparkFun-1X03_LOCK;
 EndCmp
 
 BeginCmp
@@ -155,38 +162,38 @@ IdModule  = 4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C8995E;
+TimeStamp = /52CC9D36;
 Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+ValeurCmp = CONN_1;
+IdModule  = SparkFun-1X01;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89C4A;
 Reference = P2;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SparkFun-1X01;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89C57;
 Reference = P3;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SparkFun-1X01;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89C5D;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SparkFun-1X01;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C89C63;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SparkFun-1X01;
 EndCmp
 
 BeginCmp
@@ -204,17 +211,10 @@ IdModule  = SparkFun-1X02_LONGPADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C98FE1;
-Reference = P8;
-ValeurCmp = I2C;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /52C992C9;
 Reference = P9;
 ValeurCmp = Temp;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = SparkFun-1X02_LOCK;
 EndCmp
 
 BeginCmp
@@ -438,6 +438,20 @@ BeginCmp
 TimeStamp = /52CC934A;
 Reference = R25;
 ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC9D3E;
+Reference = R26;
+ValeurCmp = ina0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CCA145;
+Reference = R27;
+ValeurCmp = ina0;
 IdModule  = SM0603;
 EndCmp
 
