@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Qua 08 Jan 2014 00:49:11 WET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Qui 09 Jan 2014 00:02:06 WET
 
 BeginCmp
 TimeStamp = /52C983ED;
@@ -162,10 +162,10 @@ IdModule  = 4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /52CC9D36;
+TimeStamp = /52CDE7EE;
 Reference = P1;
-ValeurCmp = CONN_1;
-IdModule  = SparkFun-1X01;
+ValeurCmp = CONN_4;
+IdModule  = SparkFun-1X04-SMD_mod;
 EndCmp
 
 BeginCmp
@@ -211,6 +211,13 @@ IdModule  = SparkFun-1X02_LONGPADS;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CDE4A7;
+Reference = P8;
+ValeurCmp = CONN_3X2;
+IdModule  = SparkFun-2X3;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C992C9;
 Reference = P9;
 ValeurCmp = Temp;
@@ -239,10 +246,24 @@ IdModule  = SparkFun-1X01;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CDE4CD;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = SparkFun-1X01;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CDE7FB;
+Reference = P14;
+ValeurCmp = CONN_4;
+IdModule  = SparkFun-1X04-SMD_mod;
+EndCmp
+
+BeginCmp
 TimeStamp = /52CB392C;
 Reference = Q1;
 ValeurCmp = MOS_N;
-IdModule  = sot428;
+IdModule  = sot404;
 EndCmp
 
 BeginCmp
@@ -451,6 +472,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52CCA145;
 Reference = R27;
+ValeurCmp = ina0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CDEB0C;
+Reference = R28;
 ValeurCmp = ina0;
 IdModule  = SM0603;
 EndCmp

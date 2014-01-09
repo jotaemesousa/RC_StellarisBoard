@@ -1,13 +1,53 @@
-update=Ter 07 Jan 2014 23:28:30 WET
+update=Qua 08 Jan 2014 23:53:58 WET
 version=1
-last_client=pcbnew
-[general]
+last_client=cvpcb
+[pcbnew]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LastNetListRead=RC_StellarisBoard.net
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    1,501140"
+PadSizeV="    2,499360"
+PcbTextSizeV="    1,500000"
+PcbTextSizeH="    1,500000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,500000"
+ModuleTextSizeH="    1,500000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,200000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_crystal&oscillator
+LibName9=smd_dil
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
+LibName17=AMC6821/amc6821
+LibName18=SparkFun
+LibName19=TPS62112/TPS62112
+LibName20=lm3668/lm3668
+LibName21=inductor
+LibName22=tps61170/tps61170
+LibName23=Dioden_SMD_RevA_06Sep2012
+LibName24=smd_diodes
+LibName25=sod123_mod
+LibName26=SparkFun2
+LibDir=Libs
 [eeschema]
 version=1
 LibDir=Libs
@@ -53,49 +93,12 @@ LibName33=mos_p_(1-2-3)
 LibName34=lm3668/lm3668
 LibName35=tps61170/tps61170
 LibName36=ina226
-[pcbnew]
+LibName37=msp430_remote-cache
+LibName38=gamecube-remote-cache
+[general]
 version=1
-LastNetListRead=RC_StellarisBoard.net
-UseCmpFile=1
-PadDrill="    0,000000"
-PadDrillOvalY="    0,000000"
-PadSizeH="    1,501140"
-PadSizeV="    2,499360"
-PcbTextSizeV="    1,500000"
-PcbTextSizeH="    1,500000"
-PcbTextThickness="    0,300000"
-ModuleTextSizeV="    1,500000"
-ModuleTextSizeH="    1,500000"
-ModuleTextSizeThickness="    0,150000"
-SolderMaskClearance="    0,200000"
-SolderMaskMinWidth="    0,000000"
-DrawSegmentWidth="    0,200000"
-BoardOutlineThickness="    0,150000"
-ModuleOutlineThickness="    0,150000"
-[pcbnew/libraries]
-LibDir=Libs
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=AMC6821/amc6821
-LibName18=SparkFun
-LibName19=TPS62112/TPS62112
-LibName20=lm3668/lm3668
-LibName21=inductor
-LibName22=tps61170/tps61170
-LibName23=Dioden_SMD_RevA_06Sep2012
-LibName24=smd_diodes
-LibName25=sod123_mod
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
