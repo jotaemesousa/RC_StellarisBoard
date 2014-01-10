@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-04-25 BZR 4110)-testing date = 26/05/2013 17:15:20
+
+BeginCmp
+TimeStamp = /519FFB6E;
+Reference = C1;
+ValeurCmp = 22uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FFB7B;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FDE5B;
+Reference = L1;
+ValeurCmp = 2.2uH;
+IdModule  = inductor;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FFDB0;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SparkFun-1X02_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FFDBD;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SparkFun-1X02_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FCE96;
+Reference = U2;
+ValeurCmp = LM3668_DQB_12_SDF12A;
+IdModule  = SDF12A;
+EndCmp
+
+EndListe
