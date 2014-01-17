@@ -1,6 +1,8 @@
-update=26/05/2013 17:16:37
+update=Sex 17 Jan 2014 01:31:11 WET
 version=1
-last_client=pcbnew
+last_client=cvpcb
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../kicad;../eagle2kicadlib
@@ -42,34 +44,27 @@ LibName29=contrib
 LibName30=valves
 LibName31=lm3668
 LibName32=SparkFun
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName33=devboard-arm-5749-cache
 [pcbnew]
 version=1
 LastNetListRead=buck-boost.net
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
-PadSizeH=2.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.500000000000
-ModuleTextSizeH=1.500000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.200000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.150000000000
-ModuleOutlineThickness=0.150000000000
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    2,500000"
+PadSizeV="    1,500000"
+PcbTextSizeV="    1,500000"
+PcbTextSizeH="    1,500000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,500000"
+ModuleTextSizeH="    1,500000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,200000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=../eagle2kicadlib;../../kicad
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -81,6 +76,14 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-LibName12=SparkFun
-LibName13=lm3668
-LibName14=inductor
+LibName12=lm3668
+LibName13=inductor
+LibName14=SparkFun2
+LibName15=SparkFun
+LibName16=TPS62112
+LibDir=../eagle2kicadlib;../../kicad
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
